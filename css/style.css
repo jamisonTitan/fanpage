@@ -2,11 +2,38 @@ html {
     height: 100%;
 }
 
+#bkg {
+    background-color: #804000;
+    width: 80%;
+    height: 100%;
+    z-index: -1;
+}
+
+.header {
+ text-align:center;   
+}
+
+.navbar {
+    display:flex;
+    justify-content:center;
+    background-color:#666600;
+    margin: auto;
+    flex-direction: row;
+}
+
+.divider {
+     border-radius:50%;
+    width:10px;
+    height:20px;
+    background-color: black;
+}
+
 body {
     height: 100%;
-    
+    background-color: white;
 }
 a {
+    color:white;
     text-decoration: none;
 }
 
